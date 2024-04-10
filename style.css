@@ -165,7 +165,7 @@ li{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: rgba(219, 230, 223, 0.5);
     z-index: 9999;
@@ -196,6 +196,7 @@ li{
 }
 
 #blink {
+    color: #fff;
     animation: blink-animation 2s infinite;
 }
 
