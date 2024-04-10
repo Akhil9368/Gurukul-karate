@@ -38,6 +38,9 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.img-fluid{
+          margin-inline: auto;
+}
 .heading:hover{
     cursor: pointer;
     color: #ea0909;
