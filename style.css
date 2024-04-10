@@ -38,6 +38,10 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.main_container{
+   padding-inline-start: 25px;
+   padding-inline-end: 20px;
+}
 .img-fluid{
           margin-inline: auto;
 }
