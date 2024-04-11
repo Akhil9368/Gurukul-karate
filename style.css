@@ -5,7 +5,7 @@ header{
     background-position: center;
     background-repeat:no-repeat;
     background-color: white;
-    width: 100%;
+  
     
 }
 h1{
@@ -169,7 +169,7 @@ li{
     background-color: rgba(219, 230, 223, 0.5);
     z-index: 9999;
     padding-left: 20px;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .popup-content {
@@ -208,5 +208,13 @@ li{
     }
     50% {
         opacity: 1;
+    }
+}
+@media (max-width:550px){
+    header{
+        width: 102%;
+    }
+    .bgnav{
+        width: 102%;
     }
 }
