@@ -7,11 +7,9 @@ header{
     background-position: center;
     background-repeat:no-repeat;
     background-color: white;
-    height: 40vh;   
+   
 }
-.main-content{
-    margin-top: 20px;
-}
+
 h1{
 
     font-family: "Roboto", sans-serif;
