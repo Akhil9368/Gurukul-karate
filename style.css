@@ -299,9 +299,15 @@ li{
     .section-image{
         top: 45px;
     }
-    .section-content{
-        margin-top: 31rem;
- }
+    
+     .section-image img{
+        object-fit:cover;
+        transform:scale(0.6);
+        height:auto;
+        display:block;
+     
+    }
+  
 }   
 
 @media (max-width:420px ){
@@ -313,17 +319,18 @@ li{
         margin-left: 3px;
     }
     .section-image img{
-        transform:scale(0.5);
-        margin-left:auto;
-        position:relative;
+        object-fit:cover;
+        transform:scale(0.6);
+        height:auto;
         display:block;
-        flex:1;
+        
     }
 
     .section-content{
        display:flex;
-        width:100%;
+       width:100%;
        flex-direction:column;  
+        margin-top:-45px;
    
     }
 
