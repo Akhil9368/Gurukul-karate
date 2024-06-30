@@ -321,8 +321,7 @@ li{
     .section-image img{
         object-fit:cover;
         transform:scale(0.6);
-        height:auto;
-        display:block;
+       
         
     }
 
