@@ -309,7 +309,7 @@ li{
     .section-image{
        
         margin-inline:auto;
-        top: -23px;
+       
         margin-left: 3px;
     }
     .section-image img{
@@ -322,8 +322,9 @@ li{
 
     .section-content{
        display:flex;
+        width:100%;
        flex-direction:column;  
-        transform: translateY(-6rem);
+   
     }
 
     footer img{
