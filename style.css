@@ -315,7 +315,8 @@ li{
     .section-image{
        
         margin-inline:auto;
-        top:45px
+        top:55px;
+        width:100%;
         margin-left: 3px;
     }
     .section-image img{
@@ -329,7 +330,7 @@ li{
        display:flex;
        width:100%;
        flex-direction:column;  
-        margin-top:-15px;
+        margin-top:35px;
    
     }
 
