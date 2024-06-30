@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body{
+    overflow-x : hidden;
+}
 header{
     background-image: url(./photo/logo/1658579341217.png);
     background-size:cover;
@@ -90,6 +93,11 @@ a{
 .dropdown-menu{
     border: none;
     text-align: left;
+}
+
+.section-image img{
+    width: 700px;
+    height: 500px;
 }
 
 .register{
@@ -216,9 +224,109 @@ li{
 }
 @media (max-width:550px){
     header{
-        width: 102.5%;
+        width: 100%;
     }
     .bgnav{
-        width: 102.5%;
+        width: 100%;
     }
 }
+
+@media(max-width:1150px){
+   .block{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+   }
+
+   .section-image{
+    width: 40%;
+    height:auto;
+    margin-left: 8rem;
+    margin-inline:auto;
+   }
+
+   .section-image img{
+    position:relative;
+    max-width:100%;
+    height:auto;
+    transform:scale(0.9);
+    margin:2rem 0 1rem 1rem;
+   }
+   .section-content{
+    width:60%;
+  padding-left:2rem;
+   }
+   .section-content h2{
+    margin-bottom:2rem;
+   }
+}
+
+@media (max-width:720px){
+    .header{
+        width:102.5%;
+    }
+    .block{
+        display:flex;
+        flex-direction:column;
+    }
+    .section-content{
+        order:2;
+    }
+    .section-image{
+        order:1;
+        width:100%;
+        position:absolute;
+        top:77px;
+        margin-inline:auto;
+        display:flex;
+        justify-content: center;
+    }
+
+    .section-image img{
+        object-fit:cover;
+        transform:scale(0.6);
+        height:auto;
+        display:block;
+        margin-bottom:2px;
+    }
+    .section-content{
+       margin-top: 30rem;
+}
+}
+
+@media (max-width: 550px){
+    .section-image{
+        top: 45px;
+    }
+    .section-content{
+        margin-top: 31rem;
+ }
+}   
+
+@media (max-width:420px ){
+
+    .section-image{
+       
+        margin-inline:auto;
+        top: -23px;
+        margin-left: 3px;
+    }
+    .section-image img{
+        transform:scale(0.5);
+        margin-left:auto;
+        position:relative;
+        display:block;
+        flex:1;
+    }
+
+    .section-content{
+       display:flex;
+       flex-direction:column;  
+        transform: translateY(-6rem);
+    }
+
+    footer img{
+        transform:scale(0.8);
+        width: 75px;
+    }
+} 
